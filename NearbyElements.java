@@ -19,7 +19,8 @@ public class NearbyElements {
 
 
         if (multi[x].length == 1) {
-            return null;
+            int[] neighbours = new int[]{};
+            return neighbours;
         }
 
         if (y + range > multi[x].length) {
